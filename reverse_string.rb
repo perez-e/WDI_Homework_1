@@ -1,12 +1,12 @@
 puts "Enter a string: "
 my_array = gets.chomp.split("")
-reverse_string = []
+# reverse_string = []
 
-for x in my_array
-	reverse_string.unshift x
-end
+# for x in my_array
+# 	reverse_string.unshift x
+# end
 
-puts reverse_string.join("")
+# puts reverse_string.join("")
 
 # this is the most efficient way of reversing a string
 length = my_array.length
