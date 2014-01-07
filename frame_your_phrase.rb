@@ -6,10 +6,10 @@ max_word_length = phrase.map {|word| word.length}.max
 puts "*"*(max_word_length+6) # top frame
 space = max_word_length+3 # space inside minus 1 space character
 					
-
+# content inside the frame
 phrase.each {|word| puts "* #{word}" << " "*(space-word.length) << "*" }
 
-puts "*"*(max_word_length+6)
+puts "*"*(max_word_length+6) # bottom frame
 
 space = max_word_length+4
 puts "*"*(max_word_length+6)
