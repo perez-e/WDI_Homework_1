@@ -13,6 +13,7 @@ puts "*"*(max_word_length+6) # bottom frame
 
 
 # center the words in the frame
+# i did it the long way. didn't know about the center method.
 space = max_word_length+4
 puts "*"*(max_word_length+6)
 if max_word_length.odd?
