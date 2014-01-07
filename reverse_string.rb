@@ -8,6 +8,7 @@ end
 
 puts reverse_string.join("")
 
+# this is the most efficient way of reversing a string
 length = my_array.length
 counter = 0
 while counter < length/2
