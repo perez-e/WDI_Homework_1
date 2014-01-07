@@ -11,6 +11,8 @@ phrase.each {|word| puts "* #{word}" << " "*(space-word.length) << "*" }
 
 puts "*"*(max_word_length+6) # bottom frame
 
+
+# center the words in the frame
 space = max_word_length+4
 puts "*"*(max_word_length+6)
 if max_word_length.odd?
